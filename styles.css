@@ -331,6 +331,16 @@ a {
   margin-top: 0.4rem;
 }
 
+.inline-link {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.inline-link:hover,
+.inline-link:focus-visible {
+  text-decoration: underline;
+}
+
 .product-grid {
   gap: 2.6rem;
 }
@@ -536,6 +546,39 @@ a {
 .footer-links a {
   color: rgba(203, 213, 245, 0.84);
   font-weight: 500;
+}
+
+.privacy .section-header p {
+  max-width: 720px;
+}
+
+.privacy-content {
+  display: grid;
+  gap: 1.8rem;
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  padding: 2.5rem;
+  border: 1px solid var(--color-panel-border);
+  box-shadow: var(--shadow-card);
+}
+
+.privacy-content h3 {
+  margin: 0 0 0.8rem;
+}
+
+.privacy-content p,
+.privacy-content ul {
+  margin: 0;
+  color: var(--color-muted);
+}
+
+.privacy-content ul {
+  padding-left: 1.2rem;
+  margin-top: 0.4rem;
+}
+
+.privacy-content ul li + li {
+  margin-top: 0.5rem;
 }
 
 @media (max-width: 960px) {
