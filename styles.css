@@ -345,6 +345,59 @@ a {
   gap: 2.6rem;
 }
 
+.policy-page main {
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
+
+.policy-hero {
+  padding: 4rem 0 2rem;
+}
+
+.policy-hero h1 {
+  margin: 0;
+  font-size: clamp(2.25rem, 4vw, 3rem);
+}
+
+.policy-hero p {
+  margin: 1rem 0 0;
+  max-width: 640px;
+  color: var(--color-muted);
+}
+
+.policy .section-header p {
+  max-width: 720px;
+}
+
+.policy-content {
+  display: grid;
+  gap: 1.8rem;
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  padding: 2.5rem;
+  border: 1px solid var(--color-panel-border);
+  box-shadow: var(--shadow-card);
+}
+
+.policy-content h3 {
+  margin: 0 0 0.8rem;
+}
+
+.policy-content p,
+.policy-content ul {
+  margin: 0;
+  color: var(--color-muted);
+}
+
+.policy-content ul {
+  padding-left: 1.2rem;
+  margin-top: 0.4rem;
+}
+
+.policy-content ul li + li {
+  margin-top: 0.5rem;
+}
+
 .product-card {
   background: var(--color-surface);
   border-radius: var(--radius-lg);
@@ -546,39 +599,6 @@ a {
 .footer-links a {
   color: rgba(203, 213, 245, 0.84);
   font-weight: 500;
-}
-
-.policy .section-header p {
-  max-width: 720px;
-}
-
-.policy-content {
-  display: grid;
-  gap: 1.8rem;
-  background: var(--color-surface);
-  border-radius: var(--radius-lg);
-  padding: 2.5rem;
-  border: 1px solid var(--color-panel-border);
-  box-shadow: var(--shadow-card);
-}
-
-.policy-content h3 {
-  margin: 0 0 0.8rem;
-}
-
-.policy-content p,
-.policy-content ul {
-  margin: 0;
-  color: var(--color-muted);
-}
-
-.policy-content ul {
-  padding-left: 1.2rem;
-  margin-top: 0.4rem;
-}
-
-.policy-content ul li + li {
-  margin-top: 0.5rem;
 }
 
 @media (max-width: 960px) {
