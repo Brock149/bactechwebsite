@@ -548,11 +548,11 @@ a {
   font-weight: 500;
 }
 
-.privacy .section-header p {
+.policy .section-header p {
   max-width: 720px;
 }
 
-.privacy-content {
+.policy-content {
   display: grid;
   gap: 1.8rem;
   background: var(--color-surface);
@@ -562,22 +562,22 @@ a {
   box-shadow: var(--shadow-card);
 }
 
-.privacy-content h3 {
+.policy-content h3 {
   margin: 0 0 0.8rem;
 }
 
-.privacy-content p,
-.privacy-content ul {
+.policy-content p,
+.policy-content ul {
   margin: 0;
   color: var(--color-muted);
 }
 
-.privacy-content ul {
+.policy-content ul {
   padding-left: 1.2rem;
   margin-top: 0.4rem;
 }
 
-.privacy-content ul li + li {
+.policy-content ul li + li {
   margin-top: 0.5rem;
 }
 
