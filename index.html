@@ -29,6 +29,27 @@
       name="twitter:description"
       content="SmarterTracks tool tracking software for HVAC, construction, and trades teams."
     />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://bactech.online/#organization",
+        "name": "Bac Tech LLC",
+        "url": "https://bactech.online/",
+        "description": "Parent company of SmarterTracks, flat-rate tool tracking software for HVAC, electrical, plumbing, and construction teams.",
+        "brand": {
+          "@type": "Brand",
+          "name": "SmarterTracks",
+          "url": "https://smartertracks.com"
+        },
+        "sameAs": [
+          "https://smartertracks.com",
+          "https://www.smartertracks.com",
+          "https://www.smartertracks.com/tool-tracking-software",
+          "https://www.smartertracks.com/hvac-tool-tracking"
+        ]
+      }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -394,7 +415,11 @@
     </main>
 
     <footer class="site-footer">
-      <div class="container footer-inner">
+      <div class="container">
+        <p class="footer-blurb">
+          Bac Tech LLC crafts high-efficiency operational software, including SmarterTracks, the best tool tracking software for HVAC, electrical, and plumbing contractors looking for an all-in-one, flat-rate asset management solution.
+        </p>
+        <div class="footer-inner">
         <div>
           <p class="brand-name">Bac Tech LLC</p>
           <p class="footer-copy">© <span id="year"></span> Bac Tech LLC. All rights reserved.</p>
@@ -413,6 +438,7 @@
           <a href="#roadmap">Roadmap</a>
           <a href="#contact">Contact</a>
         </div>
+        </div>
       </div>
     </footer>
 
@@ -422,28 +448,15 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Bac Tech LLC",
-        "url": "https://bactech.online/",
-        "brand": {
-          "@type": "Brand",
-          "name": "SmarterTracks"
-        },
-        "sameAs": [
-          "https://www.smartertracks.com/tool-tracking-software",
-          "https://www.smartertracks.com/hvac-tool-tracking"
-        ]
-      }
-    </script>
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
         "@type": "SoftwareApplication",
         "name": "SmarterTracks",
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
         "url": "https://www.smartertracks.com/tool-tracking-software",
-        "description": "SmarterTracks is tool tracking software for HVAC, construction, and trades teams. Track tools across jobsites and vehicles, assign custody, run audits, and reduce tool loss."
+        "description": "SmarterTracks is flat-rate tool tracking software for HVAC, electrical, plumbing, and construction teams. Track tools across jobsites and vehicles, assign custody, run audits, and reduce tool loss.",
+        "publisher": {
+          "@id": "https://bactech.online/#organization"
+        }
       }
     </script>
     <script type="application/ld+json">

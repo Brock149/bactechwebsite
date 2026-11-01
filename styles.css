@@ -579,6 +579,13 @@ a {
   border-top: 1px solid rgba(148, 163, 184, 0.1);
 }
 
+.footer-blurb {
+  margin: 0 0 1.4rem;
+  max-width: 52rem;
+  color: rgba(203, 213, 245, 0.84);
+  line-height: 1.6;
+}
+
 .footer-inner {
   display: flex;
   align-items: center;
